@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 data = {
-    "fuel_type" : ["petrol", "petrol", "petrol_premium", "diesel", "cng", "ethanol"],
-    "price_per_liter" : [100, 100, 120, 80, 60, 50]
+    "fuel_type" : [ "petrol", "petrol_premium", "diesel", "cng", "ethanol"],
+    "price_per_liter" : [ 100, 120, 80, 60, 50]
 }
 price = pd.DataFrame(data)
 print(price)
